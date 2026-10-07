@@ -1,0 +1,14 @@
+.{
+    .{ .inputs = .{"cubyz:bluebells"}, .output = "8 bdyes:dye/blue" },
+    .{ .inputs = .{"cubyz:cactus_flower"}, .output = "8 bdyes:dye/pink" },
+    .{ .inputs = .{"cubyz:castilleja"}, .output = "8 bdyes:dye/red" },
+    .{ .inputs = .{"cubyz:cornflower"}, .output = "8 bdyes:dye/blue" },
+    .{ .inputs = .{"cubyz:daffodil"}, .output = "8 bdyes:dye/yellow" },
+    .{ .inputs = .{"cubyz:daisies"}, .output = "8 bdyes:dye/white" },
+    .{ .inputs = .{"cubyz:dandelions"}, .output = "8 bdyes:dye/yellow" },
+    .{ .inputs = .{"cubyz:hibiscus"}, .output = "8 bdyes:dye/pink" },
+    .{ .inputs = .{"cubyz:lumiflora"}, .output = "8 bdyes:dye/violet" },
+    .{ .inputs = .{"cubyz:marigold"}, .output = "8 bdyes:dye/orange" },
+    .{ .inputs = .{"cubyz:trumpet_lily"}, .output = "8 bdyes:dye/white" },
+    .{ .inputs = .{"cubyz:vetch"}, .output = "8 bdyes:dye/purple" },
+}
