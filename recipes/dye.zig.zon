@@ -1,4 +1,5 @@
 .{
+    // Flowers
     .{ .inputs = .{"cubyz:bluebells"}, .output = "8 bdyes:dye/blue" },
     .{ .inputs = .{"cubyz:cactus_flower"}, .output = "8 bdyes:dye/pink" },
     .{ .inputs = .{"cubyz:castilleja"}, .output = "8 bdyes:dye/red" },
@@ -11,4 +12,45 @@
     .{ .inputs = .{"cubyz:marigold"}, .output = "8 bdyes:dye/orange" },
     .{ .inputs = .{"cubyz:trumpet_lily"}, .output = "8 bdyes:dye/white" },
     .{ .inputs = .{"cubyz:vetch"}, .output = "8 bdyes:dye/purple" },
+
+    // Organic
+    .{ .inputs = .{"cubyz:branch/toadstool"}, .output = "bdyes:dye/white" },
+    .{ .inputs = .{"cubyz:vine/glimmer_worms"}, .output = "8 bdyes:dye/purple" },
+
+    // Inorganic
+    .{ .inputs = .{"cubyz:chalk/white"}, .output = "8 bdyes:dye/white" },
+    .{ .inputs = .{"cubyz:clay"}, .output = "8 bdyes:dye/brown" },
+    .{ .inputs = .{"cubyz:coal_ore"}, .output = "8 bdyes:dye/black" },
+    .{ .inputs = .{"cubyz:sulfur_ore"}, .output = "8 bdyes:dye/yellow" },
+    .{ .inputs = .{"cubyz:uranium_ingot"}, .output = "8 bdyes:dye/green" },
+
+    // Mixing
+    .{ .inputs = .{ "bdyes:dye/blue", "bdyes:dye/green" }, .output = "2 bdyes:dye/cyan" },
+    .{ .inputs = .{ "bdyes:dye/blue", "bdyes:dye/red" }, .output = "2 bdyes:dye/purple" },
+    .{ .inputs = .{ "bdyes:dye/blue", "2 bdyes:dye/red" }, .output = "3 bdyes:dye/magenta" },
+    .{ .inputs = .{ "bdyes:dye/blue", "bdyes:dye/yellow" }, .output = "2 bdyes:dye/green" },
+    .{ .inputs = .{ "bdyes:dye/green", "bdyes:dye/red" }, .output = "2 bdyes:dye/brown" },
+    .{ .inputs = .{ "bdyes:dye/green", "bdyes:dye/yellow" }, .output = "2 bdyes:dye/lime" },
+    .{ .inputs = .{ "bdyes:dye/red", "bdyes:dye/yellow" }, .output = "2 bdyes:dye/orange" },
+
+    // Lightening/darkening
+    .{ .inputs = .{ "2 bdyes:dye/black", "bdyes:dye/white" }, .output = "2 bdyes:dye/dark_grey" },
+    .{ .inputs = .{ "2 bdyes:dye/dark_grey", "bdyes:dye/white" }, .output = "2 bdyes:dye/grey" },
+    .{ .inputs = .{ "2 bdyes:dye/grey", "bdyes:dye/black" }, .output = "2 bdyes:dye/dark_grey" },
+    .{ .inputs = .{ "2 bdyes:dye/white", "bdyes:dye/black" }, .output = "2 bdyes:dye/grey" },
+
+    .{ .inputs = .{ "2 bdyes:dye/indigo", "bdyes:dye/white" }, .output = "2 bdyes:dye/blue" },
+    .{ .inputs = .{ "2 bdyes:dye/blue", "bdyes:dye/black" }, .output = "2 bdyes:dye/indigo" },
+    .{ .inputs = .{ "2 bdyes:dye/blue", "bdyes:dye/white" }, .output = "2 bdyes:dye/aqua" },
+    .{ .inputs = .{ "2 bdyes:dye/aqua", "bdyes:dye/black" }, .output = "2 bdyes:dye/blue" },
+
+    .{ .inputs = .{ "2 bdyes:dye/crimson", "bdyes:dye/white" }, .output = "2 bdyes:dye/red" },
+    .{ .inputs = .{ "2 bdyes:dye/red", "bdyes:dye/black" }, .output = "2 bdyes:dye/crimson" },
+    .{ .inputs = .{ "2 bdyes:dye/red", "bdyes:dye/white" }, .output = "2 bdyes:dye/pink" },
+    .{ .inputs = .{ "2 bdyes:dye/pink", "bdyes:dye/black" }, .output = "2 bdyes:dye/red" },
+
+    .{ .inputs = .{ "2 bdyes:dye/viridian", "bdyes:dye/white" }, .output = "2 bdyes:dye/green" },
+    .{ .inputs = .{ "2 bdyes:dye/green", "bdyes:dye/black" }, .output = "2 bdyes:dye/viridian" },
+    .{ .inputs = .{ "2 bdyes:dye/green", "bdyes:dye/white" }, .output = "2 bdyes:dye/lime" },
+    .{ .inputs = .{ "2 bdyes:dye/lime", "bdyes:dye/black" }, .output = "2 bdyes:dye/green" },
 }

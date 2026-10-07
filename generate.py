@@ -1,3 +1,5 @@
+# Generates dye items & block dying recipes
+
 from pathlib import Path
 import shutil
 
